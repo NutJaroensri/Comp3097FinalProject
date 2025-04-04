@@ -13,7 +13,7 @@ struct Comp3097FinalProjectApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreenView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
